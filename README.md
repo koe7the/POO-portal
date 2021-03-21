@@ -1,11 +1,10 @@
-
 Esqueleto sobre el cual se construirán todos los proyectos relacionados con la materia de Interfaces Web con el Usuario.
 
 ## Instrucciones
 
 - La rama master servirá únicamente como punto de inicio para comenzar a construir los proyectos.
 - Cada proyecto tendrá una rama correspondiente con el nombre alucivo al autor del proyecto, dicha rama será creada en el momento de inicio del proyecto por el autor del mismo.
-- El nombre de la rama debe contar con el siguiente formato: Perez_Fulanito, donde Perez es el primer apellido y Fulanito es el primer nombre, nótese que ambos identificadores comienzan con letras mayúsculas y están separados por un guión bajo. 
+- El nombre de la rama debe contar con el siguiente formato: Perez_Fulanito, donde Perez es el primer apellido y Fulanito es el primer nombre, nótese que ambos identificadores comienzan con letras mayúsculas y están separados por un guión bajo.
 - Usted debe encargarse de la administración del proyecto.
 - El no cumplir las reglas respecto a la creación de ramas decantará en penalización, Las ramas que no cumplan con el formato requerido serán desestimadas, si algún desarrollador llegase a destruir el trabajo de otro compañero, el primero será penalizado con una calificación de cero (0) puntos en su proyecto y el segundo recibirá la oportunidad de reenviar la actividad, debe existir sólo una rama por estudiante, la creación de ramas innecesarias tendrá una penalización de 30% del total de la nota de la evaluación.
 - Para cada proyecto usted debe encargarse de editar el archivo README.md para mostrar la información pertinente.
