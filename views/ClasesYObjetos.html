@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../assets/icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/topicStyles.css" />
+    <link rel="stylesheet" href="../styles/form.css" />
+    <script src="../components/NavBar.js" async></script>
+    <title>Elementos de una clase</title>
+  </head>
+  <body>
+    <navigation-bar> </navigation-bar>
+
+    <!-- Clases -->
+    <div class="topicHeader_container">
+      <h1>Clases</h1>
+    </div>
+
+    <div class="topicInformation_container">
+      <div class="topicParagraph">
+        <span id="topicInformation">
+          Las clases son el elemento fundamental de la POO. Esta es una
+          colección de propiedades y métodos para un grupo de entidades que
+          comparten características comunes. Mientras que los objetos son las
+          entidades que nacieron de estas clases.
+        </span>
+      </div>
+      <h2 id="topic_subtitle">Elementos de una clase</h2>
+
+      <div class="topicParagraph">
+        <span id="topicInformation">
+          <b>Constructores:</b> Un constructor es una función propia de las
+          clases, cuya tarea es la de inicializar los objetos de su clase. Al
+          llamar a esta función se hace uso del nombre de la propia clase, y
+          como parámetros se introducen los atributos que el objeto poseerá.
+        </span>
+      </div>
+
+      <div class="topicParagraph">
+        <span id="topicInformation">
+          <b>Propiedades o atributos:</b> Estas son características propias que
+          las entidades pueden obtener. Los atributos identifican un objeto de
+          otro y le da más caracterización a su identidad. Cada propiedad debe
+          tener un valor asignado, estas propiedades pueden ser heredadas por
+          sus descendientes.
+        </span>
+      </div>
+
+      <div class="topicParagraph">
+        <span id="topicInformation">
+          <b>Propiedades o atributos privados:</b> Estas al igual que las
+          propiedades no privadas son características propias de las entidades,
+          pero con la diferencia que no son accesibles mediante el objeto en sí.
+          Para acceder a estas propiedades se hace uso de un método que las
+          retorne.
+        </span>
+      </div>
+
+      <div class="topicParagraph">
+        <span id="topicInformation">
+          <b>Métodos o operaciones:</b> Estas son acciones u operaciones
+          inherentes de una entidad, las cuales que puede realizar, por dar un
+          ejemplo, se podría pensar en un control remoto el cual posea el método
+          de encender la televisión.
+        </span>
+      </div>
+
+      <div class="topicParagraph">
+        <span id="topicInformation">
+          <b>Ejemplo de clase en JavasCript:</b>
+        </span>
+      </div>
+
+      <img src="../assets/ejemplo1" alt="example" id="visual_example" />
+    </div>
+
+    <!-- Objetos -->
+    <div class="topicHeader_container">
+      <h1>Objetos</h1>
+    </div>
+
+    <div class="topicInformation_container">
+      <div class="topicParagraph">
+        <span id="topicInformation">
+          Un objeto respresenta una instancia de una clase en especifico, este
+          objeto en cuestión cuenta con los metodos, atributos y atributos
+          privados de la clase que la instancio. Aunque en algunos contextos un
+          objeto puede existir sin una clase.
+        </span>
+      </div>
+      <div class="topicParagraph">
+        <span id="topicInformation">
+          <b>Ejemplo de objeto instanciado por la clase Pelota():</b>
+        </span>
+      </div>
+
+      <img src="../assets/ejemplo2" alt="example" id="visual_example" />
+    </div>
+
+    <!-- Ejemplo practico -->
+    <div class="topicHeader_container">
+      <h1>Ejemplo práctico en JavasCript</h1>
+    </div>
+
+    <div class="topicInformation_container">
+      <div class="topicParagraph">
+        <span id="topicInformation">
+          Mediante el siguiente formulario vas a poder crear y visualizar un
+          objeto.
+        </span>
+      </div>
+
+      <!-- formulario del ejemplo -->
+      <form id="form" class="form_container">
+        <div class="formEntry">
+          <label id="form_label">Nombre:</label>
+          <input
+            name="nombre"
+            type="text"
+            placeholder="Nombre de la clase"
+            id="form_input"
+          />
+        </div>
+        <div class="formEntry">
+          <label id="form_label">Atributo 1:</label>
+          <input
+            name="atributo1"
+            type="text"
+            placeholder="Atributo 1"
+            id="form_input"
+          />
+        </div>
+        <div class="formEntry">
+          <label id="form_label">Atributo 2:</label>
+          <input
+            name="atributo2"
+            type="text"
+            placeholder="Atributo 2"
+            id="form_input"
+          />
+        </div>
+        <div class="formEntry">
+          <label id="form_label">Atributo 3:</label>
+          <input
+            name="atributo3"
+            type="text"
+            placeholder="Atributo 3"
+            id="form_input"
+          />
+        </div>
+        <div class="formEntry">
+          <label id="form_label">Método 1:</label>
+          <input
+            name="metodo1"
+            type="text"
+            placeholder="Método 1"
+            id="form_input"
+          />
+        </div>
+        <div class="formEntry">
+          <label id="form_label">Método 2:</label>
+          <input
+            name="metodo2"
+            type="text"
+            placeholder="Método 2"
+            id="form_input"
+          />
+        </div>
+        <button id="form_submit">Visualizar</button>
+      </form>
+
+      <div id="form_output" class="form_output"></div>
+    </div>
+
+    <script src="../scripts/ClasesYObjetos.js"></script>
+  </body>
+</html>

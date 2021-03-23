@@ -1,0 +1,111 @@
+* {
+  color: var(--text-color);
+}
+
+.topicsTable_container {
+  align-items: center;
+  background-color: var(--white-color);
+  box-shadow: 0px 0px 0px 3px var(--soft-green-color) inset;
+  border-radius: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  padding: 2rem 0;
+  width: 750px;
+  transition: 0.3s all;
+}
+
+.topicsTable_container:hover {
+  box-shadow: 0px 0px 0px 5px var(--soft-green-color) inset;
+  border-radius: 0;
+}
+
+/* identificacion de la pagina */
+#identification {
+  margin: 0 0 0.8rem 0;
+  text-align: center;
+}
+
+#uni_logo {
+  border-radius: 0.2rem;
+  height: 160px;
+  margin: 0 0 0.7rem 0;
+  width: 220px;
+}
+
+#uni_logo:hover {
+  outline: 1px solid lightgray;
+}
+
+#subtitle {
+  margin: 0.9rem 0 0 0;
+}
+
+/* contenido */
+#content {
+  display: flex;
+}
+
+#column {
+  margin: 0 1.5rem;
+}
+
+#topic_list {
+  list-style-type: disc;
+  max-width: 180px;
+}
+
+#topic {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 1rem 0;
+  transition: 0.4s all;
+}
+
+#topic > a {
+  text-decoration: none;
+  color: var(--topic-color);
+}
+
+#topic > a:hover {
+  color: var(--text-color);
+}
+
+/* referencias bibliograficas */
+
+.refs_container {
+  background-color: #fff;
+  box-shadow: 0px 0px 0px 3px var(--soft-green-color) inset;
+  border-radius: 0.3rem;
+  height: max-content;
+  margin: 0.5rem 0 2.5rem 0;
+  padding: 1.5rem 0.9rem;
+  text-align: center;
+  width: 850px;
+}
+
+.refs_container:hover {
+  box-shadow: 0px 0px 0px 5px var(--soft-green-color) inset;
+  border-radius: 0;
+  transition: 0.3s all;
+}
+
+#refs_container_title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: 0.12rem underline;
+}
+
+#reference {
+  display: block;
+  padding: 0 0 0 0.5rem;
+  margin: 1rem auto;
+  width: 100%;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+#reference:hover {
+  color: var(--topic-color);
+}

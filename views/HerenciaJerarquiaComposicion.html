@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../assets/icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/topicStyles.css" />
+    <script src="../components/NavBar.js" async></script>
+    <title>Herencia, jerarquización y composición</title>
+  </head>
+  <body>
+    <navigation-bar></navigation-bar>
+
+    <div class="topicHeader_container">
+      <h1>Herencia, jerarquización y composición</h1>
+    </div>
+
+    <div class="topicInformation_container">
+      <div class="topicParagraph">
+        <span id="topicInformation">
+          Una de las principales propiedades de las clases es la herencia. Esta
+          consiste en crear nuevas clases a partir de clases ya existentes,
+          manteniendo las propiedades de la clase original y añadiendo otras
+          nuevas.
+        </span>
+      </div>
+
+      <div class="topicParagraph">
+        <span id="topicInformation">
+          La nueva clase se le denomina como clase derivada, y la o las clase a
+          partir de la cual se derive se denominan clases base. Una clase base
+          también puede ser usada como clase base para crear otras clases
+          derivadas.
+        </span>
+      </div>
+
+      <div class="topicParagraph">
+        <span id="topicInformation">
+          <b>Ejemplo de herencia en Javascript:</b></span
+        >
+      </div>
+
+      <div class="topicParagraph">
+        <span id="topicInformation">
+          -Como primer paso creamos la clase padre, para efectos del ejemplo se
+          llamara Persona.
+        </span>
+      </div>
+
+      <img src="../assets/ejemplo4.1" alt="example" id="visual_example" />
+
+      <div class="topicParagraph">
+        <span id="topicInformation">
+          -Como segundo paso crearemos la clase hija, la nombraremos Estudiante,
+          luego usando la palabra "extends" y seguida de esta la clase Persona
+          estaremos indicando una relación de herencia.
+        </span>
+      </div>
+
+      <img src="../assets/ejemplo4.2" alt="example" id="visual_example" />
+
+      <div class="topicParagraph">
+        <span id="topicInformation">
+          -Como tercer y ultimo paso instanciaremos un objeto de nuestra clase
+          Estudiante, el cual le haremos uso de su método saludar, heredado de
+          la clase Persona.
+        </span>
+      </div>
+      <img src="../assets/ejemplo4.3" alt="example" id="visual_example" />
+
+      <h2 id="topic_subtitle">Aspectos a considerar</h2>
+
+      <ul id="topicInformation_list">
+        <li>No se modifica la clase existente.</li>
+        <li>La nueva clase hereda de la clase base:</li>
+        <ul>
+          <li>Sus atributos privados y no privados.</li>
+          <li>Sus métodos.</li>
+        </ul>
+        <li>La nueva clase no heredará de la clase base:</li>
+        <ul>
+          <li>Sus constructores y destructores.</li>
+          <li>Métodos y datos estáticos.</li>
+        </ul>
+        <li>Es un mecanismo de reutilización de código.</li>
+        <li>Se genera un tipo de relación (Padre - hija).</li>
+        <li>
+          El grupo de elementos al cual pertenece un tipo incluye a los del
+          subtipo.
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+/* Encabezado */
+.topicHeader_container {
+  margin: 2rem 0 1rem 0;
+  text-align: center;
+}
+
+.topicHeader_container > h1 {
+  text-decoration: 0.18rem underline;
+  margin: 0 0 1rem 0;
+}
+
+/* Informacion */
+.topicInformation_container {
+  box-shadow: 0px 0px 0px 3px var(--soft-green-color) inset;
+  border-radius: 0.2rem;
+  background-color: var(--white-color);
+  width: 900px;
+  margin: 0 2rem 1.5rem 2rem;
+  padding: 1.3rem 2rem 2rem 2rem;
+  text-align: center;
+}
+
+.topicParagraph {
+  margin: 0.7rem 0 0.3rem 0;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#topic_subtitle {
+  margin-top: 1rem;
+}
+
+#topicInformation {
+  margin: 1.8rem;
+  line-height: 1.7rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+#topicInformation_list {
+  margin: 0.7rem 0 0 0;
+  padding: 0 0 0 3rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-align: left;
+}
+#topicInformation_list > ul > li {
+  margin: 0 0 0 1.8rem;
+}
+
+#topicInformation_list > li {
+  margin: 0.3rem 0;
+}
+
+/* Ejemplo */
+#visual_content {
+  display: block;
+  max-height: 300px;
+  max-width: 550px;
+  margin: 1.5rem auto 1rem auto;
+}
+
+#visual_example {
+  max-width: 750px;
+  max-height: 500px;
+  margin: -1.5rem 0 1rem 0;
+}
