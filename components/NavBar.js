@@ -74,7 +74,7 @@ template.innerHTML = `
       </ul>
 
       <ul id="column">
-      <li><a id="topic_link" href="./ClasesYObjetos.html">Clases y objetos</a></li>
+        <li><a id="topic_link" href="./ClasesYObjetos.html">Clases y objetos</a></li>
         <li><a id="topic_link" href="./VentajasDePoo.html">Ventajas del uso de POO</a></li>
         <li><a id="topic_link" href="./LaModularizacion.html">La modularización</a></li>
       </ul>
@@ -88,7 +88,6 @@ template.innerHTML = `
     </div>
   </div>
 `;
-
 class NavBar extends HTMLElement {
   constructor() {
     super();
